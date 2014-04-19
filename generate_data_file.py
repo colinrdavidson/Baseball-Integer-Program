@@ -30,7 +30,7 @@ def generate_data_file(input_file, output_file):
                 break
               elif ans.lower() == "n":
                 print("Okay, aborting...")
-                sys.exit()
+                sys.exit("UserInput: Something wrong with headings, bail.")
               else:
                 print("INVALID INPUT")
 
@@ -41,7 +41,7 @@ def generate_data_file(input_file, output_file):
                 break
               elif ans.lower() == "n":
                 print("Okay, aborting...")
-                sys.exit()
+                sys.exit("UserInput: Something wrong with headings, bail.")
               else:
                 print("INVALID INPUT")
 
@@ -52,7 +52,7 @@ def generate_data_file(input_file, output_file):
                 break
               elif ans.lower() == "n":
                 print("Okay, aborting...")
-                sys.exit()
+                sys.exit("UserInput: Something wrong with headings, bail.")
               else:
                 print("INVALID INPUT")
 
@@ -63,7 +63,7 @@ def generate_data_file(input_file, output_file):
                 break
               elif ans.lower() == "n":
                 print("Okay, aborting...")
-                sys.exit()
+                sys.exit("UserInput: Something wrong with headings, bail.")
               else:
                 print("INVALID INPUT")
 
