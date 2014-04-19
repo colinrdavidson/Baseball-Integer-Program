@@ -3,7 +3,7 @@ Baseball-Integer-Program
 
 A tool to generate a draft team using integer programming.
 
-Be sure that *glpk* is installed. [GNO Linear Programming Kit](https://www.gnu.org/software/glpk/)
+Be sure that *glpk* is installed. [GNU Linear Programming Kit](https://www.gnu.org/software/glpk/)
 
 baseball.mod
 ------------
