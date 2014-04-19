@@ -35,7 +35,7 @@ print("Creating data file for glpk...")
 try:
   gdf(input_file, "baseball.dat")
 except:
-  print("There was a problem generating \"baseball.dat\" from \"" + input_file + ", aborting...\n")
+  print("There was a problem generating \"baseball.dat\" from \"" + input_file + ", aborting...")
   print("Here is the python exception:\n")
   raise
 
