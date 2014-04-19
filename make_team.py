@@ -40,6 +40,7 @@ except:
   raise
 
 print("  ...success!\n")
+
 #Run the model
 
 #See if "baseball.dat" file exists
@@ -60,8 +61,10 @@ except IOError:
 print("Running command:")
 print("  glpsol --math --data baseball.dat --model baseball.mod\n")
 
+#Run external command "glpsol"
 with open(output_file, "w") as f:
   argarray = ["glpsol", "--math", "--data", "baseball.dat", "--model", "baseball.mod"] 
   subprocess.call(argarray, stdout=f)
 
+#Message
 print("Output written to \"" + output_file + "\"")

@@ -51,6 +51,7 @@ subject to utility :
 
 solve;
 
+#Print out the team, unused salary, and how many points the model predicts
 printf "\n\nGENERATED TEAM:\n\n";
 printf "%-20s %-10s %-10s\n", "Name", "Position", "Salary";
 printf {i in PLAYERS : x[i] == 1} "%-20s %-10s %-10.0f\n", name[i], position[i], salary[i];
